@@ -12,7 +12,7 @@ config :vlitch, Vlitch.Endpoint,
   secret_key_base: "hJmM0Z3R2XyINmkRbH7WD84eavYQVDl4cVxrmC2cS0srB9ZN4OXi21+antj7OwlJ",
   render_errors: [accepts: ~w(html json)],
   pubsub: [name: Vlitch.PubSub,
-           adapter: Phoenix.PubSub.PG2],
+           adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
 config :logger, :console,
