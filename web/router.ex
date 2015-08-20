@@ -17,7 +17,7 @@ defmodule Vlitch.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/streams", StreamController, :index
+    get "/streams/:game", StreamController, :index
   end
 
   # Other scopes may use custom stacks.

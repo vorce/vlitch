@@ -1,8 +1,7 @@
 defmodule Vlitch.StreamController do
   use Vlitch.Web, :controller
 
-  def index(conn, _params) do
-    game = "League of Legends"
+  def index(conn, %{"game" => game}) do
     streams = retrieve_streams(game)
     render conn, "index.html", streams: streams, game: game
   end
