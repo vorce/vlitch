@@ -1,0 +1,11 @@
+<div class="col-md-2">
+    <div class="thumbnail">
+        <img src="<%= @stream["preview"]["medium"] %>" alt="<%= @stream["channel"]["display_name"] %> preview">
+        <div class="caption">
+            <h3><a href="<%= @stream["channel"]["url"] %>"><%= @stream["channel"]["display_name"] %></a> <span class="badge"><%= @stream["viewers"] %></span></h3>
+
+            <p><%= @stream["channel"]["status"] %></p>
+            <p><a href="#" class="btn btn-default" role="button">Open in VLC</a></p>
+        </div>
+    </div>
+</div>
