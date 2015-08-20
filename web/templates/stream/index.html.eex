@@ -1,7 +1,10 @@
 <h2><%= @game %> streams <small>from <a href="http://www.twitch.tv">twitch</a></small></h2>
 
-<div class="row">
-<%= for stream <- @streams do %>
-    <%= render "stream.html", stream: stream %>
+<%= for row <- Enum.chunk(@streams, 6, 6, []) do %>
+    <div class="row">
+    <%= for stream <- row do %>
+        <%= render "stream.html", stream: stream %>
+    <% end %>
+    </div>
 <% end %>
-</div>
+

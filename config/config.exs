@@ -13,8 +13,6 @@ config :vlitch, Vlitch.Endpoint,
   render_errors: [accepts: ~w(html json)],
   pubsub: [name: Vlitch.PubSub,
            adapter: Phoenix.PubSub.PG2],
-  twitch_base_url: "https://api.twitch.tv/kraken",
-  twitch_client_id: "qaq3wy6p6g1p7hp7d90qwgpg6adkrez"
 
 # Configures Elixir's Logger
 config :logger, :console,

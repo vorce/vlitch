@@ -14,7 +14,7 @@
   <body>
     <div class="container-fluid" role="main">
       <div class="header">
-        <h1>Vlitch</h1>
+        <h1>vlitch</h1>
       </div>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
