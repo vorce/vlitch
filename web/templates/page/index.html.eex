@@ -2,7 +2,7 @@
 I was sick and wanted to try deploying a <a href="http://phoenixframework.org">phoenix</a> app onto <a href="http://heroku.com/">heroku</a>.
 </p>
 <p>
-Vlitch shows the 25 most popular streamers at <a href="http://twitch.tv">twitch.tv</a> for a specific game. The "Open in VLC" button is for those of us who have <a href="http://docs.livestreamer.io/">livestreamer</a> installed and want a quick one-liner to open up the specific stream in <a href="http://videolan.org">VLC</a>.
+Vlitch shows the 25 most popular streamers at <a href="http://twitch.tv">twitch.tv</a> for a specific game. The "Livestreamer cmd" button is for those of us who have <a href="http://docs.livestreamer.io/">livestreamer</a> installed and want a quick one-liner to open up the specific stream in <a href="http://videolan.org">VLC</a>.
 </p>
 
 <p>

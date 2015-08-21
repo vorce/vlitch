@@ -5,7 +5,7 @@
             <h3><a href="<%= @stream["channel"]["url"] %>"><%= @stream["channel"]["display_name"] %></a> <span class="badge"><%= @stream["viewers"] %></span></h3>
 
             <p><%= @stream["channel"]["status"] %></p>
-            <p><a href="#" class="btn btn-default" role="button" onclick="var script='livestreamer <%= @stream["channel"]["url"] %> best'; alert(script);">Open in VLC</a></p>
+            <p><a href="#" class="btn btn-default" role="button" onclick="var script='livestreamer <%= @stream["channel"]["url"] %> best'; window.prompt('Copy to clipboard', script);">Livestreamer cmd</a></p>
         </div>
     </div>
 </div>
