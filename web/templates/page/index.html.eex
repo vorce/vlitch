@@ -1,11 +1,30 @@
+<div class="row">
+
+<div class="col-md-4">
+    <h2>Background</h2>
 <p>
 I was sick and wanted to try deploying a <a href="http://phoenixframework.org">phoenix</a> app onto <a href="http://heroku.com/">heroku</a>.
 </p>
+
 <p>
 Vlitch shows the 25 most popular streamers at <a href="http://twitch.tv">twitch.tv</a> for a specific game. The "Livestreamer cmd" button is for those of us who have <a href="http://docs.livestreamer.io/">livestreamer</a> installed and want a quick one-liner to open up the specific stream in <a href="http://videolan.org">VLC</a>.
 </p>
 
-<p>
-Try <a href="/streams/League of Legends">league of legends for example</a> or maybe you're more of a <a href="/streams/Dota 2">DoTA guy?</a>
-</p>
+<h3>Examples</h3>
+<ul>
+<li>Try /streams/<a href="/streams/League of Legends">League of Legends</a></li>
+<li>or maybe you're more of a /streams/<a href="/streams/Dota 2">DoTA 2</a> guy?</li>
+</ul>
+</div>
+
+<div class="col-md-3">
+    <div class="well">
+    <ul>
+        <li>Version: <%= Mix.Project.get!.project[:version] %></li>
+        <li>Code: <a href="https://github.com/vorce/vlitch">https://github.com/vorce/vlitch</a></li>
+        <li>Contact: <a href="mailto:joel@vorce.se">joel@vorce.se</a> (<a href="https://twitter.com/Octavorce">@Octavorce</a>)</li>
+    </ul>
+    </div>
+</div>
+</div>
 
