@@ -11,9 +11,11 @@ defmodule Vlitch do
       supervisor(Vlitch.Endpoint, []),
       # Start the Ecto repository
       worker(Vlitch.Repo, []),
+      worker(Cache, []),
       # Here you could define other workers and supervisors as children
       # worker(Vlitch.Worker, [arg1, arg2, arg3]),
     ]
+    Twitch.start
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
     # for other strategies and supported options
