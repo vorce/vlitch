@@ -1,7 +1,7 @@
 <div class="row">
 
 <div class="col-md-4">
-    <h2>Background</h2>
+    <h2>Background information</h2>
 <p>
 I was sick and wanted to try deploying a <a href="http://phoenixframework.org">phoenix</a> app onto <a href="http://heroku.com/">heroku</a>.
 </p>

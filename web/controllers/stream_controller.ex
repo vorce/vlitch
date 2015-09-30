@@ -7,6 +7,6 @@ defmodule Vlitch.StreamController do
   end
 
   def retrieve_streams(game) do
-    Twitch.get!("/streams?game=" <> String.replace(game, " ", "+")).body
+    Twitch.get!("/streams?game=" <> URI.encode_www_form(game)).body
   end
 end
