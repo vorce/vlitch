@@ -2,7 +2,11 @@
 
 A basic webapp that uses the twitch api to fetch top streams for
 specific games and then shows them. This was a test project to
-try out phoenix some more and deploy to heroku.
+try out phoenix some more and deploy to heroku. Also it was made because
+I didn't have Flash installed and Twitch only provided flash based streams,
+so I wanted a quick and easy way to get a link to use for [Livestreamer](http://docs.livestreamer.io/).
+
+*Twitch now uses HTML5 for their streams so this little project is obsolete*
 
 Can probably be seen up on: https://calm-caverns-5545.herokuapp.com/
 
